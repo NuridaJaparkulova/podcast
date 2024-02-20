@@ -1,8 +1,12 @@
 import "./App.css";
-import { Header } from "./components/Header";
+import Loyaut from "./Loyaut";
 
 function App() {
-  return <div className="App"><Header/></div>;
+  return (
+    <div className="App">
+      <Loyaut />
+    </div>
+  );
 }
 
 export default App;

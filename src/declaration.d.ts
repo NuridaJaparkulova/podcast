@@ -11,3 +11,12 @@ declare module '*.svg' {
     const src: string;
     export default src;
 }
+declare module '*.jpg' {
+    import * as React from 'react';
+
+    export const ImageComponent: React.FunctionComponent<
+        React.ImgHTMLAttributes<HTMLImageElement> & { title?: string }>;
+
+    const src: string;
+    export default src;
+}

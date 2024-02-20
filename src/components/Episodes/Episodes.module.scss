@@ -1,0 +1,123 @@
+.episodes {
+    background-color: #f7ede8;
+    padding: 140px;
+}
+.cards_content {
+    margin: 100px 0 100px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    border-radius: 10px;
+    width: 48%;
+    border: 2px solid #000000;
+    flex-direction: column;
+    &_texts {
+        padding: 17px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    &_esp {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #cd4631;
+    }
+    &_title {
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: #cd4631;
+        margin-bottom: 15px;
+    }
+    &_lorem {
+        width: 270px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4d4d4d;
+    }
+}
+.card:hover {
+    box-shadow: 10px 10px 0px 0px #81adc8;
+    transition: 0.3s;
+}
+.card_elements {
+    display: flex;
+    padding: 15px;
+    column-gap: 20px;
+}
+.image {
+    width: 166px;
+    height: 166px;
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+}
+.bottom_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    p {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        // width: Hug (94px)
+        // height: Hug (31px)
+        padding: 6px 12px 6px 12px;
+        border-radius: 4px;
+        border: 1px solid #4d4d4d;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.card_buttons {
+    display: flex;
+    column-gap: 6px;
+}
+.content_right {
+    display: flex;
+    column-gap: 4px;
+    p {
+        //styleName: Small/Bold;
+        font-family: Montserrat Alternates;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        border: none;
+        padding: 0;
+    }
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_title {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #f7ede8;
+        background-color: #000000;
+    }
+}

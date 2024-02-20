@@ -1,0 +1,49 @@
+.podcast {
+    padding-top: 64px;
+    padding-bottom: 120px;
+    background-color: #f7ede8;
+    position: relative;
+    &_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .line_svg {
+        position: absolute;
+        width: 629.57px;
+        height: 592.01px;
+        top: -10px;
+        left: -152px;
+    }
+    h1 {
+        width: 50%;
+        font-size: 96px;
+        line-height: 96px;
+        letter-spacing: -0.04em;
+        span {
+            color: #cd4631;
+        }
+    }
+    p {
+        padding: 20px 0 60px 0;
+        width: 20.5%;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #4d4d4d;
+    }
+    .button {
+        background: #000000;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        color: #ffffff;
+    }
+    .button:hover {
+        box-shadow: 6px 6px 0px 0px #00000040;
+        transition: 0.3s;
+    }
+}

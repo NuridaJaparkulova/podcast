@@ -1,0 +1,22 @@
+.swiper_bottom {
+    background: #f7ede8;
+    padding: 120px;
+    h3 {
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+}
+.dFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        height: 84px;
+    }
+}
